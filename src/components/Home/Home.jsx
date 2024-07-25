@@ -7,7 +7,7 @@ import ProjectWithTabs from "../Projects/Projects2/ProjectsWithTabs";
 import TechUsed from "../TechUsed/TechUsed";
 import { Nav, NavItem, NavLink } from "reactstrap";
 import classnames from "classnames";
-import images from "../Helper/Images.js";
+import { IMAGES } from "../../constants/Theme.js"
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState("1");
@@ -18,15 +18,15 @@ const Home = () => {
   const HeroBannerText = (
     <div className="col" id="heroBanner">
     <div id="heroValuesContainer">
-      <h3 className="heroValues">Come and Explore my</h3>
+      <h3 className="heroValues">Explore My Work</h3>
     </div>
-    <h1>WEB DESIGNS</h1>
+    <h1> Crafting Code with Passion</h1>
   </div>
   )
 
   return (
     <>
-      <HeroBanner2 image={images.lion} heroBannerText={HeroBannerText}/>
+      <HeroBanner2 image={IMAGES.desertLandscape} heroBannerText={HeroBannerText}/>
 
       <AboutMe />
 

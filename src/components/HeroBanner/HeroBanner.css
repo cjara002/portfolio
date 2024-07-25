@@ -2,16 +2,17 @@
 Hero Banner Start
  ========================================================================== */
 #heroBGPhoto {
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
 }
 
 .heroValues {
+  font-family: Montserrat;
+  font-size: 1.2rem !important;
   text-transform: uppercase !important;
   -webkit-animation: fadein 3s !important;
   animation: fadein 3s;
-  font-size: 1.5rem !important;
-  text-shadow: -20px 10px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 #heroValuesContainer em,
@@ -23,17 +24,17 @@ Hero Banner Start
 }
 
 #heroBanner {
-  text-align: center;
+  text-align: left;
   margin-top: 10%;
   margin-bottom: 20%;
   color: white;
-  text-shadow: -20px 20px 20px rgba(0, 0, 0, 0.9); 
+  text-shadow: -20px 20px 20px rgba(0, 0, 0, 0.5); 
 }
 
 #heroBanner h1 {
-  font-family: fantasy;
-  font-size: 10rem;
-  letter-spacing: 0.2em !important;
+  font-family: Montserrat;
+  font-size: 5rem;
+  /* letter-spacing: 0.1em !important; */
   -webkit-animation: fadein 3s !important;
   animation: fadein 3s;
 }
@@ -42,7 +43,7 @@ Hero Banner Start
   -webkit-animation: fadein 3s !important;
   animation: fadein 3s;
   position: relative;
-  text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (max-width: 767px) {
@@ -55,7 +56,7 @@ Hero Banner Start
   }
   #heroBanner h1 {
     font-size: 2rem;
-    letter-spacing: 0.2em !important;
+    /* letter-spacing: 0.2em !important; */
   }
   .heroValues {
     font-size: .9rem !important;
