@@ -1,8 +1,6 @@
 import React from "react";
 import "./ContactStyle.css";
 import { Button } from "reactstrap";
-// import Github from "./Github.png";
-// import LinkedIn from "./LinkedIn.png";
 
 class ContactForm extends React.Component {
   state = {
@@ -106,58 +104,6 @@ class ContactForm extends React.Component {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-6">
-                <div className="row gtr-50">
-                  <div className="col-6 col-12-small">
-                    <label><b>Email</b></label>
-                    <p>cjjara002@gmail.com</p>
-                  </div>
-                  <div className="col-6 col-12-small">
-                    <label><b>Phone</b></label>
-                    <p>(626) 539-4396 </p>
-                  </div>
-                </div>
-
-                <div className="row gtr-50">
-                  <div className="col-6 col-12-small">
-                    <label><b>Social</b></label>
-                    <ul>
-                      <li className="iconSocial">
-                        <a
-                          href="https://github.com/cjara002"
-                          data-toggle="tooltip"
-                          title="GitHub"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src={Github}
-                            className="img-responsive"
-                            alt="github"
-                            id="imageSocial"
-                          ></img>
-                        </a>
-                      </li>
-                      <li className="iconSocial">
-                        <a
-                          href="https://linkedin.com/in/carlos-j-jara"
-                          data-toggle="tooltip"
-                          title="LinkedIn"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src={LinkedIn}
-                            className="img-responsive"
-                            alt="linkedin"
-                            id="imageSocial"
-                          ></img>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div> */}
             </div>
         </div>
       </React.Fragment>
