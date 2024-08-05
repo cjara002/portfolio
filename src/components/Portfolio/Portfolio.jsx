@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./Portfolio.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import images from "../Helper/Images.js";
+import SuccessScreen from "../ContactMe/success"
 
 const Portfolio = () => {
   return (
@@ -15,6 +16,7 @@ const Portfolio = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/details/:id" element={<ProjectDetails />} />
+          <Route path="/sucess" element={<SuccessScreen />} />
         </Routes>
         <footer className="bg-dark">
           <div className="py-4 border-top border-color-light-white">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const success = () => {
+const SuccessScreen = () => {
   return (
     <React.Fragment>
       <div>
@@ -10,4 +10,4 @@ const success = () => {
   );
 };
 
-export default success;
+export default SuccessScreen;
