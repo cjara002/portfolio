@@ -22,10 +22,16 @@ const ContactForm = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encodeURI({ "form-name": "contact", ...formState }),
     })
-      .then(() => console.log("Success!"))
-      .catch((error) => alert(error));
+      .then(() =>{
+        console.log("Success!")
+        navigate("/success");
+      } )
+      .catch((error) => {
+        console.log(error)
+        navigate("/error");
+      });
     // e.preventDefault();
-    navigate("/success");
+   
   };
 
   const handleChange = (e) => {
